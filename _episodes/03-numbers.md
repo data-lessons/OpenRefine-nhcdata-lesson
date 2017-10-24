@@ -52,26 +52,26 @@ When done examining the numeric data, remove this facet by clicking the `x` in t
 
 ## Scatterplot facet
 
-Now that we have multiple columns representing numbers, we can see how they relate to one another and the text columns using the scatterplot facet. Select a numeric column, for example `weight_g`, and use the pulldown menu to > `Facet` > `Scatterplot facet`. A new window called `Scatterplot Matrix` will appear. There are squares for each pair of numeric columns organized in an upper right triangle. Each square has little dots for the cell values from each row.
+Now that we have multiple columns representing numbers, we can see how they relate to one another and the text columns using the scatterplot facet. Select a numeric column, for example `weight`, and use the pulldown menu to > `Facet` > `Scatterplot facet`. A new window called `Scatterplot Matrix` will appear. There are squares for each pair of numeric columns organized in an upper right triangle. Each square has little dots for the cell values from each row.
 
 > ## Exercise
 >
 > 1. Examine the scatterplots overall. Do the patterns make sense?
-> 2. Does the scatterplot for `weight_g` vs `month` look reasonable?
+> 2. Does the scatterplot for `weight` vs `month` look reasonable?
 {: .challenge}
 
 ## Examine pair of columns in detail
 
-We can examine one pair of columns by clicking on its square in the `Scatterplot Matrix`. A new facet with only that pair will appear in the left margin panel. Choose the scatterplot for `month (x)` vs `weight_g(y)` so we can look at it in more detail. 
+We can examine one pair of columns by clicking on its square in the `Scatterplot Matrix`. A new facet with only that pair will appear in the left margin panel. Choose the scatterplot for `month (x)` vs `weight (y)` so we can look at it in more detail. 
 
 > ## Exercise
 >
-> Click in the scatterplot facet in the left margin and drag to highlight a rectangle around one of the vertical lines representing `weight_g` for a given `month (x)`. This will subset the data to those entries.
+> Click in the scatterplot facet in the left margin and drag to highlight a rectangle around one of the vertical lines representing `weight` for a given `month (x)`. This will subset the data to those entries.
 {: .challenge}
 
 > ## Exercise
 > 
-> - Click on the `Scatterplot Matrix` square for `month (x)` and `weight_g(y)` to get that as a facet in the left margin.
+> - Click on the `Scatterplot Matrix` square for `month (x)` and `weight(y)` to get that as a facet in the left margin.
 > - Now Redo the `Text filter` on `scientificName` to show only entries including the letters `tra`.
 > Notice the change in the scatterplot. It might be easier to see if you click `export plot` to put it on a new browser tab.
 {: .challenge}

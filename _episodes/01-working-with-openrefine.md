@@ -28,7 +28,7 @@ Launch OpenRefine (see [Getting Started with OpenRefine](http://www.datacarpentr
 
 OpenRefine can import a variety of file types, including tab separated (`tsv`), comma separated (`csv`), Excel (`xls`, `xlsx`), JSON, XML, RDF as XML, Google Spreadsheets. See the [OpenRefine Importers page](https://github.com/OpenRefine/OpenRefine/wiki/Importers) for more information.
 
-In this first step, we'll browse our computer to the sample data file for this lesson. In this case, we modified the `idigbio_rodents` CSV file. Some data in `weight_g`, `length_mm`, are contrived and some spaces have been added to some text fields and these anomalies are in no way related to the original dataset.
+In this first step, we'll browse our computer to the sample data file for this lesson. In this case, we modified the `idigbio_rodents` CSV file. Some data in `weight`, `length`, are contrived and some spaces have been added to some text fields and these anomalies are in no way related to the original dataset.
 
 If you haven't already, download the data from:  
 [https://figshare.com/s/6fe692e2883347b4c15f](https://figshare.com/s/6fe692e2883347b4c15f)
@@ -36,7 +36,7 @@ If you haven't already, download the data from:
 Once OpenRefine is launched in your browser, the left margin has options to `Create Project`, `Open Project`, or `Import Project`. Here we will create a new project:
 
 1. click `Create Project` and select `Get data from` `This Computer`.  
-2. Click `Choose Files` and select the file `idigbio_rodents_openrefine.csv`. Click `Open` or double-click on the filename.
+2. Click `Choose Files` and select the file `idigbio_rodents.csv`. Click `Open` or double-click on the filename.
 3. Click `Next>>` under the browse button to upload the data into OpenRefine.  
 4. OpenRefine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange, you would choose the correct separator in the box shown and click `Update Preview` (bottom left).
 5. For Character encoding, select `UTF-8`. In this case, it will insure that your text, no matter what language, is translated properly so that you don't see garbled output like `&Aring;` for Å, for example.

@@ -25,10 +25,13 @@ open it up again and be just where you stopped before.
 By default OpenRefine is saving your project. If you close OpenRefine and open it up again,
 you'll see a list of your projects. You can click on any one of them to open it up again.
 
+### Subset Export
+
+Any time you have faceted the dataset, for example, and you have just the rows of interest in your current subset, you can export that subset. Say you found 10 rows with errors, you can then click `Export` > `Comma separated` and you will get a csv file with just those 10 rows in it in your *downloads* folder. Be sure to re-name it meaningfully.
+
 ### Exporting
 
-You can also export a project. This is helpful, for instance, if you wanted to send your raw data and cleaning steps to a collaborator, 
-or share this information as a supplement to a publication. 
+You can also export a project. This is helpful, for instance, if you wanted to send your raw data and cleaning steps to a collaborator, or share this information as a supplement to a publication. 
 
 1. Click the `Export` button in the top right and select `Export project`.
 2. A `tar.gz` file will download to your default `Download` directory. The `tar.gz` extension tells you that this is a compressed file.
@@ -45,14 +48,14 @@ folder icon will now appear.
 {: .solution}
 
 You can import an existing project into OpenRefine by clicking `Open...` in the upper right > `Import Project` and selecting the `tar.gz` 
-project file. This project will include all of the raw data and cleaning steps that were part of the origina project.
+project file. This project will include all of the raw data and cleaning steps that were part of the original project.
 
 ## Exporting Cleaned Data 
 
 You can also export just your cleaned data, rather than the entire project.
 
 1. Click `Export` in the top right and select the file type you want to export the data in. `Tab-separated values` (`tsv`) or `Comma-separated values` (`csv`) would be good choices.
-2. That file will be exported to your default `Download` directory. That file can then be opened in a spreadsheet program or imported
-into programs like R or Python, which we'll be discussing later in our workshop.
+2. That file will be exported to your default `Download` directory. That file can then be opened in a spreadsheet program or imported into programs like R or Python, which we'll be discussing later in our workshop.
+3. Rename the file meaningfully and you may want to note all changes made in a separate text file with a matching name pattern. While Open Refine saves your steps, you may want them in plain text rather than as JSON.
 
 Remember from our lesson on Spreadsheets that using widely-supported, non-proprietary file formats like `tsv` or `csv` improves the ability of yourself and others to use your data. 

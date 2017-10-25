@@ -2,7 +2,7 @@
 OpenRefine lesson for Natural History collection data
 
 ### Data set notes.
-* This data set is derived from [iDigBio](http://portal.idigbio.org/)  natural science collections specimen data. [This data file](https://figshare.com/s/6fe692e2883347b4c15f) was  modified specifically for use with OpenRefine.
+* This data set is derived from [iDigBio](http://portal.idigbio.org/) natural science collections specimen data. [This data file](https://figshare.com/s/6fe692e2883347b4c15f) was  modified specifically for use with OpenRefine.
     * Some taxon names have errors introduced.
 <!--* One of the Globally Unique Identifiers (in the form of UUIDs) is changed to introduce looking for duplicates in this field.-->
 * These modifications were made in order to illustrate some features of Open Refine.

@@ -16,6 +16,10 @@ http://onlinelibrary.wiley.com/doi/10.1111/afe.12051/full
 
 Master_suction_trap_data_list_uncleaned.csv is a pre-cleaning version of a publically available dataset by David Voegtlin, Doris Lagos, Douglas Landis and Christie Bahlai, available at http://lter.kbs.msu.edu/datatables/122
 
+<!-- Open Refine, R, and SQL data are from iDigBio for the NHC Data Carpentry data lessons. Datasets are on [figshare](https://figshare.com/collections/Dataset_Collection_for_Data_Carpentry_for_Natural_History_Collections_Lessons/3912553) and can be cited as 
+> Collins, Matthew; Paul, Deborah (2017): Dataset Collection for Data Carpentry for Natural History Collections Lessons. figshare.
+https://doi.org/10.6084/m9.figshare.c.3912553.v1 -->
+
 ## Lessons
 
 ### shell
@@ -29,12 +33,17 @@ Brown and Doug Latornell.
 Original materials adapted from Software Carpentry SQL lessons for ecologists by
 Ethan White, which were adapted from Greg Wilson's original SQL lessons.
 
+<!-- Original materials adapted from Data Carpentry SQL lessons for ecologists by Matthew Collins and Deborah Paul, which were adapted from Software Carpentry SQL lessons for ecologists by Ethan White, which were adapted from Greg Wilson's original SQL lessons. -->
+
 ### R materials
 Original materials adapted from SWC Python lessons by Sarah Supp.
 John Blischak led the continued development of materials with contributions
-from Gavin Simpson, Tracy Teal, Greg Wilson, Diego Barneche, Stephen Turner and Karthik Ram. 
+from Gavin Simpson, Tracy Teal, Greg Wilson, Diego Barneche, Stephen Turner and Karthik Ram.
+
+<!-- Original materials adapted from Data Carpentry R lessons for ecologists by Matthew Collins for the Data Carpentry NHC R Lessons. -->
 
 ### Spreadsheet Best Practices
 Original materials adapted from [Practical Data Management for Bug Counters](http://practicaldatamanagement.wordpress.com/) by Christie Bahlai <br>
 Christie Bahlai and Aleksandra Pawlik led the continued development of materials with contributions
 from Jennifer Bryan, Alexander Duryee, Jeffrey Hollister,  Daisie Huang, Owen Jones, and Ben Marwick
+

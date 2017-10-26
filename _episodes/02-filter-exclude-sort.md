@@ -20,20 +20,18 @@ keypoints:
 There are many entries in our data table. We can filter it to work on a subset of the data in the list for the next set of operations. Please ensure you perform this step to save time during the class.
 
 1. Click the down arrow next to `scientificName` > `Text filter`. A `scientificName` facet will appear on the left margin.
-2. Type in `bai` and press return. There are 48 matching rows of the original 35549 rows (and these rows are selected for the subsequent steps).
-3. At the top, change the view to `Show` 50 `rows`. This way you will see all the matching rows.
+2. Type in `tra` you will automatically get the filtered rows matching this string `tra`. There are 22 matching rows of the original 15000 rows (and these rows are selected for the subsequent steps).
+3. At the top, change the view to `Show` 25 `rows`. This way you will see all the matching rows.
 
 > ## Exercise
 >
-> 1. What scientific names (genus and species) are selected by this procedure?  
+> 1. What scientific names are selected by this procedure?  
 > 2. How would you restrict this to one of the species selected?  
 > 
 > > ## Solution
 > > 1. Do `Facet` > `Text facet` on the `scientificName` column after filtering. This will show that
-> > two names match your filter criteria. They are `Baiomys taylori` and `Chaetodipus baileyi`.   
-> > 2. To restrict to only one of these two species, you could make the search case sensitive or 
-> > you could split the `scientificName` column into species and genus before filtering or
-> > you could include more letters in your filter.
+> > three names match your filter criteria. They are `Dipodomys microps centralis` and `Dipodomys nitratoides brevinasus` and `Thomomys talpoides rostralis`.   
+> > 2. To restrict to only one of these three species, you could split the `scientificName` column into three separate columns before filtering or you could include more letters in your filter, or ...
 > > 
 > {: .solution}
 {: .challenge}
@@ -53,17 +51,16 @@ is currently selected, while filtering allows you to select a subset of your dat
 >
 > > ## Solution
 > > 
-> > 1. In the facet (left margin), click on one of the names, such as `Baiomys taylori`. Notice that when you click on the name, or hover
-> > over it, there are entries to the right for `edit` and `include`. 
-> > 2. Click `include`. This will explicitly include this species, and exclude others that are not expicitly included. Notice that the
+> > 1. In the facet (left margin), click on one of the names, such as `Thomomys talpoides rostralis`. Notice that when you hover over it, there are entries to the right for `edit` and `include`. 
+> > 2. Click `include`. This will explicitly include records for this taxon, and exclude others that are not explicitly included. Notice that the
 > option now changes to `exclude`.
-> > 3. Click `include` and `exclude` on the other species (`Chaetodipus baileyi`) and notice how the two entries appear and disappear
-> >  from the table.
+> > 3. Click `include` and then `exclude` on one of the other species (`Dipodomys microps centralis`) and notice how the records for these 19 records appear and disappear from the table.
+> > 4. Note that you can `click` on a single name, in the `scientificName facet`, to `include` it. But this only works for one name.
 > > 
 > {: .solution}
 {: .challenge}
 
-Important: Select both species for your filtered dataset before continuing with the rest of the exercises.
+Important: Select (aka `include`) all three taxa for your filtered dataset before continuing with the rest of the exercises.
 
 ## Sort
 
@@ -86,10 +83,11 @@ If you try to re-sort a column that you have already used, the drop-down menu ch
 
 > ## Exercise
 > 
-> Sort the data by `plot`. What year(s) were observations recorded for plot 1 in this filtered dataset. 
+> Sort the data by `county`. What year(s) were specimens collected in Teller County in this filtered dataset?
 > 
 > > ## Solution
-> > In the `plot` column, select `Sort...` > `numbers` and select `smallest first`. The years represented are 1990 and 1995.
+> > 1. This dataset is small enough that a simple `Sort` by `county` gives you a `year` column you can read to discover that it's 1968.
+> > 2. You could sort by `year`. In the `year` column, select `Sort...` > `numbers` and select `smallest first`. The earliest year represented is 1968 and the `county` is Teller for both of these records.
 > > 
 > {: .solution}
 {: .challenge}
@@ -107,17 +105,17 @@ You can sort by multiple columns by performing sort on additional columns. The s
 > 
 > > ## Solution
 > > 
-> > 1. For the `mo` column, click on `Sort...` and then `numbers`. This will group all entries made in, for example, January,
+> > 1. For the `month` column, click on `Sort...` and then `numbers`. This will group all entries made in, for example, January,
 > > together, regardless of the year that entry was collected.  
-> > 2. For the `yr` column, click on `Sort` > `Sort...` > `numbers` and select `sort by this column alone`. This will undo the 
-> > sorting by month step. Once you've sorted by `yr` you can then apply another sorting step to sort by month within year. To do this
-> > for the `mo` column, click on `Sort` > `numbers` but do not select `sort by this column alone`. To ensure that all entries are shown 
+> > 2. For the `year` column, click on `Sort` > `Sort...` > `numbers` and select `sort by this column alone`. This will undo the 
+> > sorting by month step. Once you've sorted by `year` you can then apply another sorting step to sort by month within year. To do this
+> > for the `month` column, click on `Sort` > `numbers` but do not select `sort by this column alone`. To ensure that all entries are shown 
 > > chronologically, you will need to add a third sorting step by day within month. 
 > > 
 > {: .solution}  
 {: .challenge}
 
-If you go back to one of the already sorted colunms and select > `Sort` > `Remove sort`, that column is removed from your multiple sort. If it is the only column sorted, then data reverts to its original order.
+If you go back to one of the already sorted columns and select > `Sort` > `Remove sort`, that column is removed from your multiple sort. If it is the only column sorted, then data reverts to its original order.
 
 > ## Exercise
 >

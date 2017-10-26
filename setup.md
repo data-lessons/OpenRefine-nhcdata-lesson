@@ -5,18 +5,15 @@ permalink: /setup/
 ---
 
 > ## Data
-> **Download** this data file to your computer: [https://ndownloader.figshare.com/files/7823341](https://ndownloader.figshare.com/files/7823341)
+> **Download** this data file to your computer: [https://figshare.com/s/6fe692e2883347b4c15f](https://figshare.com/s/6fe692e2883347b4c15f)
 >
 > #### About the data
-> The data for this lesson is a part of the Data Carpentry Ecology workshop. 
-> It is a teaching version of the Portal Database. The data in this lesson
-> is a subset of the teaching version that has been intentionally 'messed up'
-> for this lesson. 
+> The data for this lesson is a part of the Data Carpentry Natural History Collections workshop. It is a teaching version of a download of rodent data from the http://portal.idigbio.org/ for use in Open Refine for the Natural History Science Collections (NHC) Lessons for Data Carpentry. See more information about the NHC datasets for Data Carpentry on [figshare](https://doi.org/10.6084/m9.figshare.c.3912553.v1).
+
+> Dataset description: common rodents in the continental United States from major institutions that publish extended information about their specimens. There are 10,767 rows in  the idigbio_rodents.csv file. The data in this lesson
+> are just a small subset of the available data at http://portal.idigbio.org. Data aggregated for this experience have been intentionally 'messed up' for this lesson. 
 > 
-> The data for this lesson and the workshop are in the 
-> [Portal Project Teaching Database](https://figshare.com/articles/Portal_Project_Teaching_Database/1314459) 
-> available on FigShare, with a CC-BY license 
-> available for reuse.
+> The data for this lesson are at [https://figshare.com/s/6fe692e2883347b4c15f](https://figshare.com/s/6fe692e2883347b4c15f) on Figshare, with a CC-BY license available for reuse.
 {: .prereq}
 
 > ## Software
